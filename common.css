@@ -1,0 +1,32 @@
+body{
+    font-family: Montserrat;
+}
+
+.container{
+    padding-right: 25px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    max-width: 1168px;
+}
+
+.btn{
+    background-color: #5558db;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px 20px;
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
