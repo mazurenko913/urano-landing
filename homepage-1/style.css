@@ -105,3 +105,45 @@
 .news-block img:last-child{
     margin-right: 0;
 }
+
+.support-block{
+    display: flex;
+}
+
+.support-block div{
+    text-align: center;
+    font-size: small;
+    margin-right: 30px;
+}
+
+.support-block div:last-child{
+    margin-right: 0;
+}
+
+.support-block .bolt-img{
+    width: 28px;
+    height: 48px;
+}
+
+.support-block .approval-img{
+    width: 50px;
+    height: 48px;
+}
+
+.support-block .support-img{
+    width: 46px;
+    height: 48px;
+}
+
+.support-block .support-title{
+    font-size: 36px;
+    margin: 30px 0 20px 0;
+}
+
+.support-block .support-text{
+    font-family: PTSerif;
+    font-size: 15px;
+    line-height: 1.67;
+    opacity: 0.5;
+    color: #0b162b;
+}

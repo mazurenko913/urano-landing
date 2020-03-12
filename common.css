@@ -21,6 +21,10 @@ body{
     padding: 4px 20px;
 }
 
+.divider{
+    height: 150px;
+}
+
 a{
     text-decoration: none;
     font-style: normal;
