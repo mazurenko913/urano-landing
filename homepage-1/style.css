@@ -1,5 +1,5 @@
 .header{
-    color: white;
+    color: var(--color-primary-text);
     background:#0b162b url('../homepage-1/img/background.jpg');
     background-position: top right;
     background-repeat: no-repeat;
@@ -7,14 +7,14 @@
 }
 
 .header .header-logo{
-    color: #ffffff;
+    color: var(--color-primary-text);
     text-decoration: none;
     font-size: 18px;
     font-weight: 900;
 }
 
 .header .header-logo span{
-    color: #5558db;
+    color: var(--color-logo);
     font-weight: 900;
 }
 
@@ -70,7 +70,6 @@
     margin-right: 30px;
     font-size: 18px;
     font-weight: 300;
-    color: #0b162b;
 }
 
 .header .content button{
@@ -81,7 +80,7 @@
     margin-top: 20px;
     opacity: 0.5;
     font-family: PTSerif;
-    color: #ffffff;
+    color: var(--color-primary-text);
     margin-bottom: 223px;
 }
 
@@ -145,5 +144,154 @@
     font-size: 15px;
     line-height: 1.67;
     opacity: 0.5;
-    color: #0b162b;
 }
+
+.first-info-block{
+    background-color: var(--color-background);
+}
+
+.info-block .container {
+    display: flex;
+}
+
+.second-info-block{
+    background-image: url(./img/map-img.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.info-block img{
+    width: 580px;
+    height: 380px;
+    margin-right: 120px;
+}
+
+.info-block .container .info-title{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.info-block .container  .info-text{
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.info-block .container  .btn{
+    padding: 15px 88px;
+}
+
+.price-block{
+    background-color: var(--color-background);
+    text-align: center;
+}
+
+.price-block .container{
+    display: flex;
+    justify-content: center;
+}
+
+.price-block .price-title{
+    font-size: 48px;
+    margin: 0 30px;
+}
+
+.price-block .price-text{
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.price-block .price-text-footer{
+    margin-top:50px
+}
+
+.price-block .free-block,
+.price-block .premium-block{
+    background-color: var(--color-secondary-background);
+    padding: 50px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+} 
+
+.price-block .free-block{
+    margin-right: 30px;
+}
+
+.price-block .discount-block{
+    display: flex;
+    justify-content: center;
+}
+
+.price-block .old-price{
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.price-block .discount{
+    height: 36px;
+    display: flex;
+    align-self: center;
+    border: none;
+    margin-left: 14px;
+    opacity: 0.25;
+    border-radius: 3px;
+    background-color: var(--background-color-price-btn);
+    font-size: 16px;
+    color: var(--color-primary-text);
+}
+
+.price-block .premium-block .discount{
+    background-color: var(--background-color-btn);
+}
+
+.price-block .secondary-block-title{
+    font-size: 36px;
+    color: #0b162b;
+    margin-top: 19px ;
+    margin-bottom: 0;
+}
+
+.price-block .current-price{
+    font-weight: 900;
+    font-size: 72px;
+    margin: 15px 0;
+}
+
+.price-block .period{
+    margin: 10px 21px;
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 18px;
+}
+
+.price-block .btn{
+    padding: 21px 135px;
+}
+
+.price-block .free-block .btn{
+    background-color: #0b162b;
+}
+
+.price-block img{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    margin-right: 11px;
+}
+
+.price-block .price-content-text{
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 29px;
+}
+
+
