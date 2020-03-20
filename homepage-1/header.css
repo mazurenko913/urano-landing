@@ -1,0 +1,112 @@
+.header{
+    color: var(--color-primary-text);
+    background: var(--background-color-secondary);
+}
+
+.header .header-logo{
+    color: var(--color-primary-text);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header .header-logo span{
+    color: var(--color-logo);
+}
+
+.header .header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 39px;
+}
+
+.header .header-menu-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header .header-menu-list li{
+    margin-right: 38px;
+}
+
+.header .header-text-link{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .header-menu button{
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 13px 40px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.header .content{
+    margin-top: 226px;
+}
+
+.header .content-title {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 72px;
+}
+
+.header .content-text{
+    font-family: PTSerif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header .authorization-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.header input{
+    width: 223px;
+    border: none;
+    border-radius: 2px;
+    padding: 20px 201px 19px 26px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header .content button{
+    padding: 19px 51px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header .header-info-block{
+    padding-top: 223px;
+    padding-bottom: 40px;
+}
+
+.header .trial{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    opacity: 0.5;
+    font-family: PTSerif;
+    color: var(--color-primary-text);
+}
+
+.header .info-img{
+    width: 16px;
+    height: 20px;
+}
+
+.header .urano-info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 14px;
+    vertical-align: top;
+}

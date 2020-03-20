@@ -3,22 +3,17 @@ body{
 }
 
 .container{
-    padding-right: 25px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
-    max-width: 1168px;
+    max-width: 1410px;
 }
 
 .btn{
     background-color: var(--background-color-btn);
     color: var(--color-primary-text);
     border: none;
-    border-radius: 2px;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 4px 20px;
+    border-radius: 3px;
 }
 
 .divider{
