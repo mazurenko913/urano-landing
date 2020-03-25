@@ -1,10 +1,9 @@
-:root{
+:root {
     --color-background:#f8f8f8;
     --color-secondary-background:#ffffff;
     --color-primary-text: #ffffff;
     --color-footer-divider: #0b162b;
-    --background-color-btn: #5558db;
-    --background-color-price-btn: #0b162b;
-    --background-color-secondary:#0b162b;
+    --color-btn-background: #5558db;
+    --color-secondary-background:#0b162b;
     --color-logo:#5558db;
 }

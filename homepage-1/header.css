@@ -1,110 +1,205 @@
-.header{
+.header {
     color: var(--color-primary-text);
-    background: var(--background-color-secondary);
+    background: var(--color-secondary-background);
+    padding-top: 39px;
 }
 
-.header .header-logo{
-    color: var(--color-primary-text);
-    text-decoration: none;
+.header .logo {
     font-size: 28px;
     font-weight: bold;
 }
 
-.header .header-logo span{
+.header .logo span {
     color: var(--color-logo);
 }
 
-.header .header-menu{
+.header .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 39px;
 }
 
-.header .header-menu-list{
+.header .menu-list {
+    display: flex;
     align-items: center;
     list-style-type: none;
     margin: 0;
 }
 
-.header .hidden-menu-btn{
+.header svg {
     width: 30px;
     height: 30px;
-    color: white;
-    background-color: white;
+    fill: white;
 }
 
-
-.header .header-menu-list li{
+.header .menu-list li {
     margin-right: 38px;
 }
 
-.header .header-text-link{
-    text-decoration: none;
+.header .text-link {
     font-size: 18px;
 }
 
-.header .header-menu button{
-    font-weight: bold;
-    border-radius: 3px;
+.header .menu button {
     padding: 13px 40px;
     line-height: 22px;
     font-size: 18px;
 }
 
-.header .content-title {
-    margin-top: 0;
-    margin-bottom: 20px;
-    line-height: 72px;
+.content{
+    margin-top: 226px;
 }
 
-.header .content-text{
+.header .content-title {
+    width: 690px;
+    margin:0;
+    line-height: 72px;
+    font-size: 64px;
+}
+
+.header .content-text {
+    font-size: 22px;
+    width: 570px;
     font-family: PTSerif;
     line-height: 36px;
-    margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.header .authorization-block{
+.header .authorization {
     display: flex;
-    flex-direction: row;
 }
 
-.header .email-input{
+.header .email-input {
     border: none;
+    width: 415px;
     border-radius: 2px;
-    padding: 20px 201px 19px 26px;
+    margin-right: 30px;
+    padding: 20px 26px 19px 26px;
     font-size: 18px;
     font-weight: 100;
 }
 
-.header .content button{
+.header .content button {
     padding: 19px 51px;
     font-size: 18px;
-    font-weight: bold;
 }
 
-.header .header-info-block{
+.header .info-description {
+    padding-top: 223px;
     padding-bottom: 40px;
 }
 
-.header .trial{
+.header .trial {
     font-size: 18px;
-    margin-top: 20px;
     margin-bottom: 0;
     opacity: 0.5;
     font-family: PTSerif;
     color: var(--color-primary-text);
 }
 
-.header .info-img{
+.header .info-img {
     width: 16px;
     height: 20px;
 }
 
-.header .urano-info{
+.header .urano-info {
     font-size: 18px;
     font-weight: bold;
     margin-left: 14px;
     vertical-align: top;
+}
+
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px)   {
+    .header .content {
+        margin-top: 168px;
+    }
+
+    .header .info-description {
+        padding-top: 168px;
+    }
+}
+
+@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
+    .header .menu-list {
+        display: none;
+    }
+
+    .header .menu-btn {
+        display: block;
+    }
+
+    .header .authorization {
+        flex-wrap: wrap;
+    }
+
+    .header .email-input {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+
+    .header .btn {
+        width: 100%;
+    }
+
+    .header .content {
+        margin-top: 126px;
+    }
+
+    .header .info-description {
+        padding-top: 100px;
+    }
+
+    .header .content-title {
+        font-size: 56px;
+        line-height: 62px;
+    }
+
+    .header .content-text {
+        line-height: 32px;
+    }
+}
+
+@media only screen and (max-width: calc(576px - 1px)) {
+    .header .menu-list {
+        display: none;
+    }
+
+    .header .menu-btn {
+        display: block;
+    }
+
+    .header .authorization {
+        flex-wrap: wrap;
+    }
+
+    .header .email-input {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+
+    .header .btn {
+        width: 100%;
+    }
+
+    .header .content {
+        margin-top: 64px;
+    }
+
+    .header .info-description {
+        padding-top: 68px;
+    }
+
+    .header .content-title {
+        width: 100%;
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .header .content-text {
+        font-size: 21px;
+        width: 100%;
+        line-height: 28px;
+    }
 }
