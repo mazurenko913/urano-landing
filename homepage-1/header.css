@@ -30,6 +30,7 @@
     width: 30px;
     height: 30px;
     fill: white;
+    display: none;
 }
 
 .header .menu-list li {
@@ -124,7 +125,7 @@
         display: none;
     }
 
-    .header .menu-btn {
+    .header svg {
         display: block;
     }
 
@@ -165,7 +166,7 @@
         display: none;
     }
 
-    .header .menu-btn {
+    .header svg {
         display: block;
     }
 
@@ -193,8 +194,8 @@
 
     .header .content-title {
         width: 100%;
-        font-size: 48px;
-        line-height: 52px;
+        font-size: 36px;
+        line-height: 38px;
     }
 
     .header .content-text {

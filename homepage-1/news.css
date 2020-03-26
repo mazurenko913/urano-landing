@@ -1,0 +1,12 @@
+.news-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.news-block img {
+    margin-top: 65px;
+    padding: 0 20px;
+}
+
