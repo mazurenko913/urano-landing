@@ -1,0 +1,115 @@
+.first-info-block {
+    background-color: var(--color-background);
+    padding-bottom: 100px;
+}
+
+.second-info-block {
+    margin: 100px 0;
+    background-image: url(./img/map-img.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.second-info-block .container div{
+    width: 570px;
+}
+
+.info .container {
+    display: flex;
+}
+
+.info img {
+    width: 550px;
+    margin-right: 110px;
+}
+
+.info .container .info-title {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.info .container  .info-text {
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.info .container  .btn {
+    padding: 15px 88px;
+}
+
+
+@media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
+    .info img {
+        width: 438px;
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
+    .info img {
+        width: 400px;
+        height: 300px;
+        margin-right: 40px;
+    }
+
+    .info .container .info-title {
+        margin-top: 20px;
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+
+    .second-info-block .container div {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
+    .info .container {
+        flex-wrap: wrap;
+    }
+
+    .info .container .btn {
+        width: 100%;
+    }
+
+    .second-info-block {
+        background: none;
+    }
+
+    .info .divider {
+        height: 70px;
+    }
+
+    .second-info-block .info-title {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: calc(576px - 1px)) {
+    .info .container {
+        flex-wrap: wrap;
+    }
+
+    .info img {
+        width: 100%
+    }
+
+    .info .container .btn {
+        width: 100%;
+    }
+
+    .second-info-block {
+        background: none;
+    }
+
+    .info .divider {
+        height: 70px;
+    }
+
+    .second-info-block .info-title {
+        margin-top: 0;
+    }
+}
