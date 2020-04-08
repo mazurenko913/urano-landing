@@ -1,18 +1,18 @@
-.price {
+.price-section {
     background-color: var(--color-background);
     text-align: center;
 }
 
-.price .container {
+.price-section .container {
     display: flex;
     justify-content: center;
 }
 
-.price .title {
+.price-section .title {
     margin: 0 30px;
 }
 
-.price .text {
+.price-section .text {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
@@ -20,13 +20,13 @@
     margin-bottom: 50px;
 }
 
-.price .text-footer {
+.price-section .text-footer {
     margin-top:50px;
     margin-bottom: 0;
 }
 
-.price .free,
-.price .premium { 
+.price-section .free,
+.price-section .premium { 
     background-color: var(--color-secondary-background);
     padding: 50px;
     border-radius: 3px;
@@ -34,23 +34,23 @@
     background-color: #ffffff;
 } 
 
-.price .free {
+.price-section .free {
     margin-right: 30px;
 }
 
-.price .discount {
+.price-section .discount {
     display: flex;
     justify-content: center;
 }
 
-.price .old-price {
+.price-section .old-price-section {
     text-decoration: line-through;
     opacity: 0.5;
     font-size: 18px;
     font-weight: 100;
 }
 
-.price .badge {
+.price-section .badge {
     font-weight: 900;
     display: flex;
     align-self: center;
@@ -61,109 +61,109 @@
     font-size: 16px;
 }
 
-.price .premium .badge {
+.price-section .premium .badge {
     background-color: var(--color-btn-background);
 }
 
-.price .free  .title,
-.price .premium  .title {
+.price-section .free  .title,
+.price-section .premium  .title {
     font-size: 36px;
     color: #0b162b;
     margin-top: 14px ;
     margin-bottom: 0;
 }
 
-.price .current-price {
+.price-section .current-price-section {
     font-weight: 900;
     font-size: 72px;
     margin: 15px 0;
 }
 
-.price .period {
+.price-section .period {
     margin: 10px 21px;
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
 }
 
-.price .btn {
+.price-section .btn {
     padding: 21px 128px;
     margin-bottom: 30px;
 }
 
-.price .free .btn.inverse {
+.price-section .free .btn.inverse {
     background-color: #0b162b;
 }
 
-.price img {
+.price-section img {
     width: 20px;
     height: 20px;
     vertical-align: bottom;
     margin-right: 11px;
 }
 
-.price .more{
+.price-section .more{
     height: 38px;
     display: flex;
     align-items: center;
 }
 
-.price .description {
+.price-section .description {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
     text-align: left;
 }
 
-.price img {
+.price-section img {
     opacity: 100;
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-    .price .free,
-    .price .premium { 
+    .price-section .free,
+    .price-section .premium { 
         padding: 20px;
     }
 
-    .price .free{
+    .price-section .free{
         margin-right: 20px;
     }
 
-    .price .btn {
+    .price-section .btn {
         padding: 21px 90px;
     }
 }
 
 @media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
-    .price .container{
+    .price-section .container{
         flex-wrap: wrap;
     }
 
-    .price .free{
+    .price-section .free{
         margin-right: 0;
         margin-bottom: 40px;
     }
 
-    .price .divider{
+    .price-section .divider{
         height: 70px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .price .container{
+    .price-section .container{
         flex-wrap: wrap;
     }
 
-    .price .free{
+    .price-section .free{
         margin-right: 0;
         margin-bottom: 40px;
     }
 
-    .price .title {
+    .price-section .title {
         font-size: 40px;
     }
 
-    .price .divider{
+    .price-section .divider{
         height: 70px;
     }
 }

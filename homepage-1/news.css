@@ -1,11 +1,11 @@
-.news {
+.news-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.news img {
+.news-section img {
     margin-top: 62px;
     margin-bottom: 42px;
     padding: 0 20px;

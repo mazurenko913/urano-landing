@@ -1,63 +1,63 @@
-.header {
+.header-section {
     color: var(--color-primary-text);
     background: var(--color-secondary-background);
     padding-top: 39px;
 }
 
-.header .menu .logo {
+.header-section .menu .logo {
     font-size: 28px;
     font-weight: bold;
 }
 
-.header .menu .logo span {
+.header-section .menu .logo span {
     color: var(--color-logo);
 }
 
-.header .menu {
+.header-section .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header .menu .list {
+.header-section .menu .list {
     display: flex;
     align-items: center;
     list-style-type: none;
     margin: 0;
 }
 
-.header .menu svg {
+.header-section .menu svg {
     width: 30px;
     height: 30px;
     fill: white;
     display: none;
 }
 
-.header .menu .list li {
+.header-section .menu .list li {
     margin-right: 38px;
 }
 
-.header .menu .text-link {
+.header-section .menu .text-link {
     font-size: 18px;
 }
 
-.header .menu button {
+.header-section .menu button {
     padding: 13px 40px;
     line-height: 22px;
     font-size: 18px;
 }
 
-.header .content{
+.header-section .content{
     margin-top: 228px;
 }
 
-.header .content .title {
+.header-section .content .title {
     width: 690px;
     margin:0;
     line-height: 72px;
 }
 
-.header .content .text {
+.header-section .content .text {
     font-size: 22px;
     width: 570px;
     font-family: PTSerif;
@@ -65,11 +65,11 @@
     margin-bottom: 30px;
 }
 
-.header .content .authorization {
+.header-section .content .authorization {
     display: flex;
 }
 
-.header .content .email-input {
+.header-section .content .email-input {
     border: none;
     width: 415px;
     border-radius: 2px;
@@ -79,17 +79,17 @@
     font-weight: 100;
 }
 
-.header .content button {
+.header-section .content button {
     padding: 19px 51px;
     font-size: 18px;
 }
 
-.header .content .description {
+.header-section .content .description {
     padding-top: 223px;
     padding-bottom: 40px;
 }
 
-.header .content .trial {
+.header-section .content .trial {
     font-size: 16px;
     margin-bottom: 0;
     opacity: 0.5;
@@ -97,12 +97,12 @@
     color: var(--color-primary-text);
 }
 
-.header .content .about-img {
+.header-section .content .about-img {
     width: 16px;
     height: 20px;
 }
 
-.header .content .more-about {
+.header-section .content .more-about {
     font-size: 18px;
     font-weight: bold;
     margin-left: 14px;
@@ -110,102 +110,102 @@
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px)   {
-    .header .content {
+    .header-section .content {
         margin-top: 168px;
     }
 
-    .header .content .description {
+    .header-section .content .description {
         padding-top: 168px;
     }
 }
 
 @media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
-    .header .menu .list {
+    .header-section .menu .list {
         display: none;
     }
 
-    .header .menu svg {
+    .header-section .menu svg {
         display: block;
     }
 
-    .header .content{
+    .header-section .content{
         margin-top: 150px;
     }
 
-    .header .content .authorization {
+    .header-section .content .authorization {
         flex-wrap: wrap;
     }
 
-    .header .content .email-input {
+    .header-section .content .email-input {
         width: 100%;
         margin-bottom: 16px;
         margin-right: 0;
     }
 
-    .header .content .btn {
+    .header-section .content .btn {
         width: 100%;
     }
 
-    .header .content .content {
+    .header-section .content .content {
         margin-top: 126px;
     }
 
-    .header .content .description {
+    .header-section .content .description {
         padding-top: 100px;
     }
 
-    .header .content .title {
+    .header-section .content .title {
         font-size: 56px;
         line-height: 62px;
     }
 
-    .header .content .text {
+    .header-section .content .text {
         line-height: 32px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .header .menu .list {
+    .header-section .menu .list {
         display: none;
     }
 
-    .header .menu svg {
+    .header-section .menu svg {
         display: block;
     }
 
-    .header .content{
+    .header-section .content{
         margin-top: 100px;
     }
 
-    .header .content .authorization {
+    .header-section .content .authorization {
         flex-wrap: wrap;
     }
 
-    .header .content .email-input {
+    .header-section .content .email-input {
         width: 100%;
         margin-bottom: 16px;
         margin-right: 0;
     }
 
-    .header .content .btn {
+    .header-section .content .btn {
         width: 100%;
     }
 
-    .header .content .content {
+    .header-section .content .content {
         margin-top: 64px;
     }
 
-    .header .content .description {
+    .header-section .content .description {
         padding-top: 68px;
     }
 
-    .header .content .title {
+    .header-section .content .title {
         width: 100%;
         font-size: 36px;
         line-height: 38px;
     }
 
-    .header .content .text {
+    .header-section .content .text {
         font-size: 21px;
         width: 100%;
         line-height: 28px;

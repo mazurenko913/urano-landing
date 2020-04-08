@@ -1,47 +1,47 @@
-.main-info {
+.main-info-section {
     background-color: var(--color-background);
 }
 
-.main-info .container {
+.main-info-section .container {
     display: flex;
 }
 
-.main-info img {
+.main-info-section img {
     width: 550px;
     height: 470px;
     margin-right: 110px;
 }
 
-.main-info .content .title {
+.main-info-section .content .title {
     margin-bottom: 20px;
 }
 
-.main-info .content .text {
+.main-info-section .content .text {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 15px;
     margin-bottom: 30px;
 }
 
-.main-info .content .btn {
+.main-info-section .content .btn {
     padding: 15px 88px;
 }
 
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    .main-info img {
+    .main-info-section img {
         width: 438px;
         margin-right: 80px;
     }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-    .main-info img {
+    .main-info-section img {
         width: 400px;
         height: 300px;
         margin-right: 40px;
     }
 
-    .main-info .content .title {
+    .main-info-section .content .title {
         margin-top: 20px;
         font-size: 29px;
         margin-bottom: 20px;
@@ -49,41 +49,41 @@
 }
 
 @media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
-    .main-info .container {
+    .main-info-section .container {
         flex-wrap: wrap;
     }
 
-    .main-info .content .btn {
+    .main-info-section .content .btn {
         width: 100%;
     }
 
-    .main-info .content .title {
+    .main-info-section .content .title {
         margin-top: 40px;
     }
 
-    .main-info .divider {
+    .main-info-section .divider {
         height: 70px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .main-info .container {
+    .main-info-section .container {
         flex-wrap: wrap;
     }
 
-    .main-info img {
+    .main-info-section img {
         width: 100%
     }
 
-    .main-info .content .btn {
+    .main-info-section .content .btn {
         width: 100%;
     }
 
-    .main-info .content .title {
+    .main-info-section .content .title {
         margin-top: 40px;
     }
     
-    .main-info .divider {
+    .main-info-section .divider {
         height: 70px;
     }
 }

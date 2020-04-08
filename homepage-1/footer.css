@@ -1,19 +1,19 @@
-.footer {
+.footer-section {
     background-color: var(--color-secondary-background);
 }
 
-.footer .menu {
+.footer-section .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer .menu .title {
+.footer-section .menu .title {
     margin: 0;
     color: var(--color-primary-text);
 }
 
-.footer .menu .text {
+.footer-section .menu .text {
     font-family: PTSerif;
     font-size: 22px;
     font-weight: 100;
@@ -21,7 +21,7 @@
     color: var(--color-primary-text);
 }
 
-.footer .menu input {
+.footer-section .menu input {
     width: 283px;
     border: none;
     border-radius: 2px;
@@ -31,37 +31,37 @@
     font-weight: 300;
 }
 
-.footer .menu .btn {
+.footer-section .menu .btn {
     padding: 13px 34px;
 }
 
-.footer .footer-divider {
+.footer-section .footer-section-divider {
     margin-top: 50px;
     border-top: none;
-    background: 1px solid var(--color-footer-divider);
+    background: 1px solid var(--color-footer-section-divider);
 }
 
-.footer .content {
+.footer-section .content {
     color: var(--color-primary-text);
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.footer .content .social-networks {
+.footer-section .content .social-networks {
     height: 42px;
     padding-right: 0;
 }
 
-.footer .content .social-networks img {
+.footer-section .content .social-networks img {
     padding-right: 10px;
 }
 
-.footer .content .social-networks img:last-child {
+.footer-section .content .social-networks img:last-child {
     padding-right: 0;
 }
 
-.footer .content th {
+.footer-section .content th {
     line-height: 30px;
     text-align: left;
     margin-top: 0;
@@ -69,7 +69,7 @@
     padding-bottom: 10px;
 }
 
-.footer .content  td {
+.footer-section .content  td {
     padding-right: 40px;
     padding-bottom: 13px;
     opacity: 0.5;
@@ -78,135 +78,135 @@
 }
 
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    .footer .menu  .title {
+    .footer-section .menu  .title {
         font-size: 35px;
     }
 
-    .footer .menu .text {
+    .footer-section .menu .text {
         font-size: 18px;
     }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-    .footer .divider{
+    .footer-section .divider{
         height: 70px;
     }
 
-    .footer .menu{
+    .footer-section .menu{
         flex-wrap: wrap;
     }
     
-    .footer .menu  .authorization{
+    .footer-section .menu  .authorization{
         margin-top: 35px;
     }
 
-    .footer .content td {
+    .footer-section .content td {
         padding-right: 20px;
     }
 }
 
 @media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
-    .footer .divider{
+    .footer-section .divider{
         height: 70px;
     }
 
-    .footer .menu{
+    .footer-section .menu{
         flex-wrap: wrap;
     }
 
-    .footer .menu  .title {
+    .footer-section .menu  .title {
         font-size: 35px;
     }
 
-    .footer .menu  .text {
+    .footer-section .menu  .text {
         font-size: 18px;
     }
     
-    .footer .menu .authorization{
+    .footer-section .menu .authorization{
         margin-top: 35px;
         width: 100%;
     }
 
-    .footer .menu input{
+    .footer-section .menu input{
         width: 100%;
         box-sizing: border-box;
     }
 
-    .footer .menu .btn{
+    .footer-section .menu .btn{
         margin-top: 30px;
         flex-wrap: wrap;
         width: 100%;
     }
 
-    .footer .content{
+    .footer-section .content{
         flex-wrap: wrap;
     }
 
-    .footer .content td {
+    .footer-section .content td {
         padding-right: 50px;
         font-size: 15px;
     }
 
-    .footer .content .social-networks{
+    .footer-section .content .social-networks{
         margin-top: 50px;
     }
 
-    .footer .content .social-networks img {
+    .footer-section .content .social-networks img {
         padding-right: 40px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .footer .divider{
+    .footer-section .divider{
         height: 70px;
     }
 
-    .footer .menu{
+    .footer-section .menu{
         flex-wrap: wrap;
     }
-    .footer .menu .title {
+    .footer-section .menu .title {
         font-size: 35px;
     }
 
-    .footer .menu .text {
+    .footer-section .menu .text {
         font-size: 18px;
     }
 
-    .footer .menu .authorization{
+    .footer-section .menu .authorization{
         margin-top: 35px;
         width: 100%;
     }
 
-    .footer .menu input{
+    .footer-section .menu input{
         width: 100%;
         box-sizing: border-box;
     }
 
-    .footer .menu .btn{
+    .footer-section .menu .btn{
         margin-top: 30px;
         flex-wrap: wrap;
         width: 100%;
     }
 
-    .footer .content{
+    .footer-section .content{
         flex-wrap: wrap;
     }
 
 
-    .footer .content th {
+    .footer-section .content th {
         font-size: 15px;
     }
 
-    .footer .content td {
+    .footer-section .content td {
         padding-right: 28px;
         font-size: 14px;
     }
 
-    .footer .content .social-networks{
+    .footer-section .content .social-networks{
         margin-top: 50px;
     }
 
-    .footer .content .social-networks img {
+    .footer-section .content .social-networks img {
         padding-right: 40px;
     }
 }
