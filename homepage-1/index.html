@@ -12,7 +12,8 @@
   <link href="./header.css" rel="stylesheet">
   <link href="./news.css" rel="stylesheet">
   <link href="./support.css" rel="stylesheet">
-  <link href="./info.css" rel="stylesheet">
+  <link href="./main-info.css" rel="stylesheet">
+  <link href="./secondary-info.css" rel="stylesheet">
   <link href="./price.css" rel="stylesheet">
   <link href="./footer.css" rel="stylesheet">
 
@@ -29,7 +30,7 @@
       <div class="menu">
         <a class="logo" href="#">urano<span>.</span> </a>
 
-        <ul class="menu-list">
+        <ul class="list">
           <li>
             <a class="text-link" href="#">Features</a>
           </li>
@@ -69,9 +70,9 @@
       </div>
 
       <div class="content">
-        <h1 class="content-title">Urano .sketch Template For Free</h1>
+        <h1 class="title">Urano .sketch Template For Free</h1>
 
-        <p class="content-text">Revolutionizing web design experience with simple to use
+        <p class="text">Revolutionizing web design experience with simple to use
           UI kit filled with many features. It is your UI designer
           wherever you need him.
         </p>
@@ -82,9 +83,9 @@
         </div>
 
         <p class="trial">Try it for free • No credit card required</p>
-        <div class="info-description">
-          <img src="../homepage-1/img/cursor.png" class="info-img">
-          <a class="urano-info">More about urano</a>
+        <div class="description">
+          <img class="about-img" src="../homepage-1/img/about.png">
+          <a class="more-about">More about urano</a>
         </div>
       </div>
     </div>
@@ -101,28 +102,28 @@
   <div class="divider"></div>
 
   <section class="support container">
-    <div>
+    <div class="card">
       <img src="./img/material-bolt.png">
-      <h4 class="support-title">Lorem ipsum</h4>
-      <p class="support-text">Nunc porta erat ut lectus posuere molestie. Vestibulum<br>
+      <h3 class="title">Lorem ipsum</h3>
+      <p class="text">Nunc porta erat ut lectus posuere molestie. Vestibulum<br>
         risus ligula, rhoncus eleifend rhoncus sed, malesuada id<br>
         metus. Aenean lorem nibh, varius fermentum viverra<br>
         vel, efficitur nec elit. </p>
     </div>
 
-    <div>
+    <div class="card">
       <img src="./img/material-approval.png">
-      <h4 class="support-title">Lorem ipsum</h4>
-      <p class="support-text">Nunc porta erat ut lectus posuere molestie. Vestibulum<br>
+      <h3 class="title">Lorem ipsum</h3>
+      <p class="text">Nunc porta erat ut lectus posuere molestie. Vestibulum<br>
         risus ligula, rhoncus eleifend rhoncus sed, malesuada id<br>
         metus. Aenean lorem nibh, varius fermentum viverra<br>
         vel, efficitur nec elit. </p>
     </div>
 
-    <div>
+    <div class="card">
       <img src="./img/material-support.png">
-      <h4 class="support-title">Lorem ipsum</h4>
-      <p class="support-text">Nunc porta erat ut lectus posuere molestie. Vestibulum<br>
+      <h3 class="title">Lorem ipsum</h3>
+      <p class="text">Nunc porta erat ut lectus posuere molestie. Vestibulum<br>
         risus ligula, rhoncus eleifend rhoncus sed, malesuada id<br>
         metus. Aenean lorem nibh, varius fermentum viverra<br>
         vel, efficitur nec elit. </p>
@@ -131,144 +132,158 @@
 
   <div class="divider"></div>
 
-  <section class="info first-info-block">
+  <section class="main-info">
     <div class="divider"></div>
-    
+
     <div class="container">
       <img src="./img/laptop-1.png">
 
-      <div>
-        <h4 class="info-title">Integer ut ex vitae enim semper</h4>
-        <p class="info-text">Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula,
+      <div class="content">
+        <h2 class="title">Integer ut ex vitae enim semper</h2>
+        <p class="text">Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula,
           rhoncus eleifend rhoncus sed, malesuada id metus. Aenean lorem nibh,
           varius fermentum viverra vel, efficitur nec elit.
         </p>
+
         <button class="btn">Get Started</button>
       </div>
     </div>
-
-    
+    <div class="divider"></div>
   </section>
-  
-  <section class="info second-info-block">
+
+  <section class="secondary-info">
     <div class="container">
-      <div>
-        <h4 class="info-title">Integer ut ex vitae enim semper</h4>
-        <p class="info-text">Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula,
+      <div class="content"> 
+        <h2 class="title">Integer ut ex vitae enim semper</h2>
+        <p class="text">Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula,
           rhoncus eleifend rhoncus sed, malesuada id metus. Aenean lorem nibh,
           varius fermentum viverra vel, efficitur nec elit.
         </p>
+
         <button class="btn">Get Started</button>
+      </div>
+
+      <div class="flags">
+        <img src="./img/flags.png">
       </div>
     </div>
   </section>
 
-  
   <section class="price">
     <div class="divider"></div>
 
-    <h4 class="price-title">Let’s get you started with Urano</h4>
-    <p class="price-text">Nunc porta erat ut lectus posuere molestie.</p>
+    <h2 class="title">Let’s get you started with Urano</h2>
+    <p class="text">Nunc porta erat ut lectus posuere molestie.</p>
 
     <div class="container">
       <div class="free">
-        <div class="discount-block">
+        <div class="discount">
           <p class="old-price">$9.99</p>
-          <button class="discount">SAVE 100%</button>
+          <div class="badge">SAVE 100%</div>
         </div>
 
-        <h4 class="secondary-title">Free</h4>
+        <h4 class="title">Free</h4>
         <p class="current-price">$0</p>
         <p class="period">Free forever</p>
 
         <button class="btn inverse">Get Started</button>
-
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
+        
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
       </div>
 
       <div class="premium">
-        <div class="discount-block">
+        <div class="discount">
           <p class="old-price">$9.99</p>
-          <button class="discount">SAVE 100%</button>
+          <div class="badge">SAVE 100%</div>
         </div>
 
-        <h4 class="secondary-title">Premium</h4>
+        <h4 class="title">Premium</h4>
         <p class="current-price">$25</p>
         <p class="period">Per month</p>
 
         <button class="btn">Get Started</button>
 
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
-        <p class="price-content-text"><img src="./img/shape.png"> Lorem ipsum dolor sit amet</p>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
+        <div class="more"><img src="./img/shape.png"><p class="description">Lorem ipsum dolor sit amet</p></div>
       </div>
     </div>
-    <p class="price-text price-text-footer">Enterprise plan is available for larger teams. Get in touch to know more.
+    <p class="text text-footer">Enterprise plan is available for larger teams. Get in touch to know more.
     </p>
     <div class="divider"></div>
   </section>
+
 
   <footer class="footer">
     <div class="divider"></div>
 
     <div class="container">
-      <div class="footer-top">
+      <div class="menu">
         <div>
-          <h4 class="footer-title">Get started for free</h4>
-          <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 class="title">Get started for free</h2>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
-        <div class="authorization-block">
+        <div class="authorization">
           <input placeholder="Enter your email address">
           <button class="btn">Get Started</button>
         </div>
       </div>
+
       <hr class="footer-divider">
 
-      <div class="footer-wrapper">
-        <div class="footer-content">
-          <div>
-            <h5 class="footer-content-title">Features</h5>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-          </div>
+      <div class="content">
+        <table>
+          <tr>
+            <th>Features</th>
+            <th>Solutions</th>
+            <th>Resources</th>
+            <th>Company</th>
+          </tr>
 
-          <div>
-            <h5 class="footer-content-title">Solutions</h5>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+          <tr>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+          </tr>
 
-          </div>
+          <tr>
+            <td>Lorem ipsum</td>
+            <td></td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+          </tr>
 
-          <div>
-            <h5 class="footer-content-title">Resources</h5>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-          </div>
-
-          <div>
-            <h5 class="footer-content-title">Company</h5>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-          </div>
-        </div>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Lorem ipsum</td>
+            <td>Lorem ipsum</td>
+          </tr>
+        </table>
 
         <div class="social-networks">
           <img src="./img/instagram-logo.png">

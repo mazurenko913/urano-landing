@@ -8,20 +8,21 @@
     justify-content: center;
 }
 
-.price .price-title {
-    font-size: 48px;
+.price .title {
     margin: 0 30px;
 }
 
-.price .price-text {
+.price .text {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
+    margin-top: 34px;
     margin-bottom: 50px;
 }
 
-.price .price-text-footer {
-    margin-top:50px
+.price .text-footer {
+    margin-top:50px;
+    margin-bottom: 0;
 }
 
 .price .free,
@@ -37,7 +38,7 @@
     margin-right: 30px;
 }
 
-.price .discount-block {
+.price .discount {
     display: flex;
     justify-content: center;
 }
@@ -49,27 +50,26 @@
     font-weight: 100;
 }
 
-.price .discount {
-    height: 36px;
+.price .badge {
+    font-weight: 900;
     display: flex;
     align-self: center;
-    border: none;
+    align-items: center;
     margin-left: 14px;
     opacity: 0.25;
     border-radius: 3px;
-    background-color: var(--color-secondary-background);
     font-size: 16px;
-    color: var(--color-primary-text);
 }
 
-.price .premium .discount {
+.price .premium .badge {
     background-color: var(--color-btn-background);
 }
 
-.price .secondary-title {
+.price .free  .title,
+.price .premium  .title {
     font-size: 36px;
     color: #0b162b;
-    margin-top: 19px ;
+    margin-top: 14px ;
     margin-bottom: 0;
 }
 
@@ -87,7 +87,8 @@
 }
 
 .price .btn {
-    padding: 21px 134px;
+    padding: 21px 128px;
+    margin-bottom: 30px;
 }
 
 .price .free .btn.inverse {
@@ -101,12 +102,21 @@
     margin-right: 11px;
 }
 
-.price .price-content-text {
+.price .more{
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.price .description {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
     text-align: left;
-    margin-top: 29px;
+}
+
+.price img {
+    opacity: 100;
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
@@ -137,7 +147,6 @@
     .price .divider{
         height: 70px;
     }
-
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
@@ -150,7 +159,7 @@
         margin-bottom: 40px;
     }
 
-    .price .price-title {
+    .price .title {
         font-size: 40px;
     }
 

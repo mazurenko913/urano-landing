@@ -1,0 +1,122 @@
+.secondary-info {
+    margin: 100px 0;
+    background-image: url(./img/world-map.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.secondary-info .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.secondary-info .flags{
+    display: flex;
+}
+
+.secondary-info .flags img {
+    width: 254px;
+    height: 260px;
+}
+
+.secondary-info .content{
+    width: 570px;
+}
+
+.secondary-info .content .title {
+    margin-bottom: 20px;
+}
+
+.secondary-info .content .text {
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.secondary-info .content .btn {
+    padding: 15px 88px;
+}
+
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
+    .secondary-info .content {
+        width: 360px;
+    }
+
+    .secondary-info .content .title {
+        margin-top: 20px;
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+
+    .secondary-info .container{
+        padding: 40px
+    }
+
+    .secondary-info .flags img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
+    .secondary-info {
+        background: none;
+    }
+
+    .secondary-info .flags img {
+        display: none;
+    }
+
+    .secondary-info .container{
+        padding: 0;
+    }
+
+    .secondary-info .container {
+        flex-wrap: wrap;
+    }
+
+    .secondary-info .content .btn {
+        width: 100%;
+    }
+
+    .secondary-info .content .title {
+        margin-top: 0;
+    }
+
+    .secondary-info .divider {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: calc(576px - 1px)) {
+    .secondary-info {
+        background: none;
+    }
+
+    .secondary-info .flags img {
+        display: none;
+    }
+
+    .secondary-info .container{
+        padding: 0;
+    }
+
+    .secondary-info .container {
+        flex-wrap: wrap;
+    }
+
+    .secondary-info .content .btn {
+        width: 100%;
+    }
+
+    .secondary-info .content .title {
+        margin-top: 0;
+    }
+    
+    .secondary-info .divider {
+        height: 70px;
+    }
+}

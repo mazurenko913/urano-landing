@@ -22,6 +22,12 @@ body {
     height: 150px;
 }
 
+.price .badge {
+    padding: 8px 14px;
+    background-color: var(--color-secondary-background);
+    color: var(--color-primary-text);
+}
+
 a {
     text-decoration: none;
     font-style: normal;
@@ -31,7 +37,28 @@ a {
     color: var(--color-primary-text);
 }
 
-@media only screen and (min-width: 1200px)  {
+h1 {
+    font-size: 64px;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+@media only screen and (min-width: 1470px)  {
+    .container {
+        max-width: 1410px;
+    }
+}
+
+@media only screen and (max-width: 1469px) and (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }

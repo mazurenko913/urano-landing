@@ -4,12 +4,12 @@
     padding-top: 39px;
 }
 
-.header .logo {
+.header .menu .logo {
     font-size: 28px;
     font-weight: bold;
 }
 
-.header .logo span {
+.header .menu .logo span {
     color: var(--color-logo);
 }
 
@@ -19,25 +19,25 @@
     align-items: center;
 }
 
-.header .menu-list {
+.header .menu .list {
     display: flex;
     align-items: center;
     list-style-type: none;
     margin: 0;
 }
 
-.header svg {
+.header .menu svg {
     width: 30px;
     height: 30px;
     fill: white;
     display: none;
 }
 
-.header .menu-list li {
+.header .menu .list li {
     margin-right: 38px;
 }
 
-.header .text-link {
+.header .menu .text-link {
     font-size: 18px;
 }
 
@@ -47,18 +47,17 @@
     font-size: 18px;
 }
 
-.content{
-    margin-top: 226px;
+.header .content{
+    margin-top: 228px;
 }
 
-.header .content-title {
+.header .content .title {
     width: 690px;
     margin:0;
     line-height: 72px;
-    font-size: 64px;
 }
 
-.header .content-text {
+.header .content .text {
     font-size: 22px;
     width: 570px;
     font-family: PTSerif;
@@ -66,11 +65,11 @@
     margin-bottom: 30px;
 }
 
-.header .authorization {
+.header .content .authorization {
     display: flex;
 }
 
-.header .email-input {
+.header .content .email-input {
     border: none;
     width: 415px;
     border-radius: 2px;
@@ -85,25 +84,25 @@
     font-size: 18px;
 }
 
-.header .info-description {
+.header .content .description {
     padding-top: 223px;
     padding-bottom: 40px;
 }
 
-.header .trial {
-    font-size: 18px;
+.header .content .trial {
+    font-size: 16px;
     margin-bottom: 0;
     opacity: 0.5;
     font-family: PTSerif;
     color: var(--color-primary-text);
 }
 
-.header .info-img {
+.header .content .about-img {
     width: 16px;
     height: 20px;
 }
 
-.header .urano-info {
+.header .content .more-about {
     font-size: 18px;
     font-weight: bold;
     margin-left: 14px;
@@ -115,90 +114,98 @@
         margin-top: 168px;
     }
 
-    .header .info-description {
+    .header .content .description {
         padding-top: 168px;
     }
 }
 
 @media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
-    .header .menu-list {
+    .header .menu .list {
         display: none;
     }
 
-    .header svg {
+    .header .menu svg {
         display: block;
     }
 
-    .header .authorization {
+    .header .content{
+        margin-top: 150px;
+    }
+
+    .header .content .authorization {
         flex-wrap: wrap;
     }
 
-    .header .email-input {
+    .header .content .email-input {
         width: 100%;
         margin-bottom: 16px;
         margin-right: 0;
     }
 
-    .header .btn {
+    .header .content .btn {
         width: 100%;
     }
 
-    .header .content {
+    .header .content .content {
         margin-top: 126px;
     }
 
-    .header .info-description {
+    .header .content .description {
         padding-top: 100px;
     }
 
-    .header .content-title {
+    .header .content .title {
         font-size: 56px;
         line-height: 62px;
     }
 
-    .header .content-text {
+    .header .content .text {
         line-height: 32px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .header .menu-list {
+    .header .menu .list {
         display: none;
     }
 
-    .header svg {
+    .header .menu svg {
         display: block;
     }
 
-    .header .authorization {
+    .header .content{
+        margin-top: 100px;
+    }
+
+    .header .content .authorization {
         flex-wrap: wrap;
     }
 
-    .header .email-input {
+    .header .content .email-input {
         width: 100%;
         margin-bottom: 16px;
         margin-right: 0;
     }
 
-    .header .btn {
+    .header .content .btn {
         width: 100%;
     }
 
-    .header .content {
+    .header .content .content {
         margin-top: 64px;
     }
 
-    .header .info-description {
+    .header .content .description {
         padding-top: 68px;
     }
 
-    .header .content-title {
+    .header .content .title {
         width: 100%;
         font-size: 36px;
         line-height: 38px;
     }
 
-    .header .content-text {
+    .header .content .text {
         font-size: 21px;
         width: 100%;
         line-height: 28px;
