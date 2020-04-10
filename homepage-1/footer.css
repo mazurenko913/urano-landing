@@ -2,50 +2,54 @@
     background-color: var(--color-secondary-background);
 }
 
-.footer-section .menu {
+.footer-section .get-started {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer-section .menu .title {
+.footer-section .get-started .title {
     margin: 0;
     color: var(--color-primary-text);
 }
 
-.footer-section .menu .text {
+.footer-section .get-started .text {
     font-family: PTSerif;
+    line-height: 36px;
     font-size: 22px;
     font-weight: 100;
     margin: 0;
     color: var(--color-primary-text);
 }
 
-.footer-section .menu input {
-    width: 283px;
+.footer-section .get-started input {
     border: none;
+    width: 415px;
     border-radius: 2px;
-    padding: 11px 25px 10px 25px;
-    margin-right: 28px;
+    margin-right: 30px;
+    padding: 19px 18px 19px 17px;
     font-size: 18px;
-    font-weight: 300;
+    line-height: 22px;
+    font-weight: 100;
 }
 
-.footer-section .menu .btn {
-    padding: 13px 34px;
+.footer-section .get-started .btn {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 19px 50px 19px 52px;
 }
 
-.footer-section .footer-section-divider {
+.footer-section .footer-divider {
     margin-top: 50px;
+    margin-bottom: 50px;
     border-top: none;
     background: 1px solid var(--color-footer-section-divider);
 }
 
 .footer-section .content {
     color: var(--color-primary-text);
-    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer-section .content .social-networks {
@@ -61,152 +65,222 @@
     padding-right: 0;
 }
 
-.footer-section .content th {
-    line-height: 30px;
-    text-align: left;
-    margin-top: 0;
-    font-size: 18px;
-    padding-bottom: 10px;
+.footer-section .content .links {
+    display: flex;
 }
 
-.footer-section .content  td {
-    padding-right: 40px;
-    padding-bottom: 13px;
+.footer-section .content ul {
+    padding: 0;
+    margin: 0 135px 0 0;
+}
+
+.footer-section .content .title {
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.footer-section .content  li {
+    list-style-type: none;
     opacity: 0.5;
+    margin-bottom: 14px;
+    line-height: 22px;
     font-family: PTSerif;
     font-size: 18px;
 }
 
+.footer-section .container .divider {
+    height: 143px;
+}
+
+@media only screen and (max-width: calc(1470px - 1px)) and (min-width: 1200px) {
+    .footer-section .get-started input {
+        width: 330px;
+    }
+}
+
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    .footer-section .menu  .title {
+    .footer-section .get-started {
+        flex-wrap: wrap;
+    }
+
+    .footer-section .get-started .authorization{
+        margin-top: 30px;
+    }
+
+    .footer-section .get-started  .title {
         font-size: 35px;
     }
 
-    .footer-section .menu .text {
+    .footer-section .get-started .text {
         font-size: 18px;
+    }
+
+    .footer-section .content ul {
+        margin-right: 90px;
     }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-    .footer-section .divider{
+    .footer-section .divider {
         height: 70px;
     }
 
-    .footer-section .menu{
+    .footer-section .get-started {
         flex-wrap: wrap;
     }
     
-    .footer-section .menu  .authorization{
+    .footer-section .get-started  .authorization {
         margin-top: 35px;
     }
 
-    .footer-section .content td {
-        padding-right: 20px;
+    .footer-section .content ul {
+        margin-right: 50px;
+    }
+
+    .footer-section .content  li {
+        line-height: 20px;
+        font-size: 14px;
     }
 }
 
 @media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
-    .footer-section .divider{
+    .footer-section .divider {
         height: 70px;
     }
 
-    .footer-section .menu{
+    .footer-section .get-started {
         flex-wrap: wrap;
     }
 
-    .footer-section .menu  .title {
+    .footer-section .get-started  .title {
         font-size: 35px;
     }
 
-    .footer-section .menu  .text {
+    .footer-section .get-started  .text {
         font-size: 18px;
     }
     
-    .footer-section .menu .authorization{
+    .footer-section .get-started .authorization {
         margin-top: 35px;
         width: 100%;
     }
 
-    .footer-section .menu input{
+    .footer-section .get-started input {
+        margin-right: 0;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .footer-section .menu .btn{
+    .footer-section .get-started .btn{
         margin-top: 30px;
         flex-wrap: wrap;
         width: 100%;
     }
 
-    .footer-section .content{
+    .footer-section .content {
         flex-wrap: wrap;
     }
 
-    .footer-section .content td {
-        padding-right: 50px;
-        font-size: 15px;
+    .footer-section .content .links {
+        justify-content: space-between;
+        width: 100%;
     }
 
-    .footer-section .content .social-networks{
+    .footer-section .content .social-networks {
         margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .footer-section .content .social-networks img {
         padding-right: 40px;
+    }
+
+    .footer-section .content ul {   
+        margin:0;
+    }
+
+    .footer-section .content  li {
+        line-height: 20px;
+        font-size: 14px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .footer-section .divider{
+    .footer-section .divider {
         height: 70px;
     }
 
-    .footer-section .menu{
+    .footer-section .footer-divider {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-section .get-started {
         flex-wrap: wrap;
     }
-    .footer-section .menu .title {
-        font-size: 35px;
+
+    .footer-section .get-started  .title {
+        font-size: 34px;
+        line-height: 40px;
     }
 
-    .footer-section .menu .text {
+    .footer-section .get-started  .text {
         font-size: 18px;
+        line-height: 25px;
     }
-
-    .footer-section .menu .authorization{
+    
+    .footer-section .get-started .authorization {
         margin-top: 35px;
         width: 100%;
     }
 
-    .footer-section .menu input{
+    .footer-section .get-started input {
+        margin-right: 0;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .footer-section .menu .btn{
+    .footer-section .get-started .btn {
         margin-top: 30px;
         flex-wrap: wrap;
         width: 100%;
     }
 
-    .footer-section .content{
+    .footer-section .content {
         flex-wrap: wrap;
     }
 
-
-    .footer-section .content th {
-        font-size: 15px;
+    .footer-section .content .links {
+        justify-content: space-between;
+        width: 100%;
     }
 
-    .footer-section .content td {
-        padding-right: 28px;
-        font-size: 14px;
-    }
-
-    .footer-section .content .social-networks{
+    .footer-section .content .social-networks {
         margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .footer-section .content .social-networks img {
         padding-right: 40px;
+    }
+
+    .footer-section .content .title{
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .footer-section .content ul {   
+        margin-right: 15px;
+    }
+
+    .footer-section .content  li {
+        line-height: 16px;
+        font-size: 12px;
     }
 }

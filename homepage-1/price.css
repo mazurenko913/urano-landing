@@ -10,13 +10,15 @@
 
 .price-section .title {
     margin: 0 30px;
+    line-height: 40px;
 }
 
 .price-section .text {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
-    margin-top: 34px;
+    line-height: 30px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -28,7 +30,7 @@
 .price-section .free,
 .price-section .premium { 
     background-color: var(--color-secondary-background);
-    padding: 50px;
+    padding: 50px 50px 47px 50px;
     border-radius: 3px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
@@ -41,12 +43,16 @@
 .price-section .discount {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 
-.price-section .old-price-section {
+.price-section .old-price {
+    margin: 0;
     text-decoration: line-through;
     opacity: 0.5;
     font-size: 18px;
+    line-height: 30px;
     font-weight: 100;
 }
 
@@ -58,7 +64,6 @@
     margin-left: 14px;
     opacity: 0.25;
     border-radius: 3px;
-    font-size: 16px;
 }
 
 .price-section .premium .badge {
@@ -68,27 +73,33 @@
 .price-section .free  .title,
 .price-section .premium  .title {
     font-size: 36px;
+    line-height: 48px;
     color: #0b162b;
-    margin-top: 14px ;
+    margin-top: 19px ;
     margin-bottom: 0;
 }
 
-.price-section .current-price-section {
+.price-section .current-price {
     font-weight: 900;
     font-size: 72px;
-    margin: 15px 0;
+    line-height: 90px;
+    margin-top: 3px;
+    margin-bottom: 0;
 }
 
 .price-section .period {
-    margin: 10px 21px;
+    margin: 10px 0  21px 0;
     opacity: 0.5;
     font-family: PTSerif;
+    line-height: 30px;
     font-size: 18px;
 }
 
 .price-section .btn {
-    padding: 21px 128px;
     margin-bottom: 30px;
+    padding: 19px 120px 19px 122px;
+    line-height: 22px;
+    font-size: 18px;
 }
 
 .price-section .free .btn.inverse {
@@ -103,15 +114,21 @@
 }
 
 .price-section .more{
-    height: 38px;
+    margin-bottom: 10px;
+    height: 30px;
     display: flex;
     align-items: center;
+}
+
+.price-section .more:last-child{
+    margin-bottom: 0;
 }
 
 .price-section .description {
     opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
+    
     text-align: left;
 }
 
@@ -163,7 +180,16 @@
         font-size: 40px;
     }
 
+    .price-section .text {
+        font-size: 17px;
+    }
+
     .price-section .divider{
         height: 70px;
+    }
+
+    .price-section .btn{
+        width: 100%;
+        padding: 0;
     }
 }

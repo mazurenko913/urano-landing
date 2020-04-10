@@ -6,8 +6,25 @@
 }
 
 .news-section img {
-    margin-top: 62px;
-    margin-bottom: 42px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 20px;
 }
 
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px)   {
+   body .divider{
+       height: 100px;
+   }
+}
+
+@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
+    body .divider{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    body .divider{
+        height: 60px;
+    }
+}

@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    line-height: 0;
 }
 
 .support-section .card {
@@ -13,9 +14,11 @@
 }
 
 .support-section .text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: PTSerif;
-    font-size: 16px;
-    line-height: 1.67;
+    font-size: 18px;
+    line-height: 30px;
     opacity: 0.5;
 }
 
@@ -60,5 +63,10 @@
 
     .support-section .title {
         margin: 15px 0 10px 0;
+    }
+
+    .support-section .text{
+        font-size: 15px;
+        line-height: 20px;
     }
 }

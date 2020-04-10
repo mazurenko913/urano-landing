@@ -22,8 +22,10 @@ body {
     height: 150px;
 }
 
-.price .badge {
-    padding: 8px 14px;
+.badge {
+    line-height: 36px;
+    font-size: 16px;
+    padding: 0 15px;
     background-color: var(--color-secondary-background);
     color: var(--color-primary-text);
 }
@@ -58,25 +60,25 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 1469px) and (min-width: 1200px) {
+@media only screen and (max-width: calc(1470px - 1px)) and (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
 }
 
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
+@media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
     .container {
         max-width: 960px;
     }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px)   {
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px)   {
     .container {
         max-width: 720px;
     }
 }
 
-@media only screen  and (max-width: 767px) and (min-width: 576px)  {
+@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
     .container {
         max-width: 540px;
     }

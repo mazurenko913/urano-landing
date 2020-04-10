@@ -19,17 +19,21 @@
 .main-info-section .content .text {
     opacity: 0.5;
     font-family: PTSerif;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 30px;
     margin-bottom: 30px;
 }
 
 .main-info-section .content .btn {
-    padding: 15px 88px;
+    padding: 0 112px;
+    font-size: 18px;
+    line-height: 60px;
 }
 
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
     .main-info-section img {
         width: 438px;
+        height: 400px;
         margin-right: 80px;
     }
 }
@@ -44,7 +48,16 @@
     .main-info-section .content .title {
         margin-top: 20px;
         font-size: 29px;
+        line-height: 35px;
         margin-bottom: 20px;
+    }
+
+    .main-info-section .content .text {
+        line-height: 24px;
+    }
+
+    .main-info-section .content .btn {
+        padding: 0px 85px;
     }
 }
 
@@ -59,6 +72,14 @@
 
     .main-info-section .content .title {
         margin-top: 40px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .main-info-section .content .text {
+        line-height: 22px;
+        font-size: 16px;
     }
 
     .main-info-section .divider {
@@ -72,6 +93,7 @@
     }
 
     .main-info-section img {
+        height: 340px;
         width: 100%
     }
 
@@ -81,6 +103,14 @@
 
     .main-info-section .content .title {
         margin-top: 40px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .main-info-section .content .text {
+        line-height: 22px;
+        font-size: 16px;
     }
     
     .main-info-section .divider {
