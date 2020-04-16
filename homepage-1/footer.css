@@ -109,10 +109,6 @@
         margin-top: 30px;
     }
 
-    .footer-section .get-started  .title {
-        font-size: 35px;
-    }
-
     .footer-section .get-started .text {
         font-size: 18px;
     }
@@ -123,10 +119,6 @@
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-    .footer-section .divider {
-        height: 70px;
-    }
-
     .footer-section .get-started {
         flex-wrap: wrap;
     }
@@ -146,18 +138,10 @@
 }
 
 @media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
-    .footer-section .divider {
-        height: 70px;
-    }
-
     .footer-section .get-started {
         flex-wrap: wrap;
     }
-
-    .footer-section .get-started  .title {
-        font-size: 35px;
-    }
-
+    
     .footer-section .get-started  .text {
         font-size: 18px;
     }
@@ -210,10 +194,6 @@
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .footer-section .divider {
-        height: 70px;
-    }
-
     .footer-section .footer-divider {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -221,11 +201,6 @@
 
     .footer-section .get-started {
         flex-wrap: wrap;
-    }
-
-    .footer-section .get-started  .title {
-        font-size: 34px;
-        line-height: 40px;
     }
 
     .footer-section .get-started  .text {
@@ -276,11 +251,11 @@
     }
 
     .footer-section .content ul {   
-        margin-right: 15px;
+        margin-right: 8px;
     }
 
     .footer-section .content  li {
-        line-height: 16px;
-        font-size: 12px;
+        line-height: 14px;
+        font-size: 10px;
     }
 }

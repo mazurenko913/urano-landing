@@ -72,15 +72,34 @@ h3 {
     }
 }
 
-@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px)   {
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
     .container {
         max-width: 720px;
     }
+
+    .h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
 }
 
-@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
+@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px) {
     .container {
         max-width: 540px;
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 62px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .divider {
+        height: 100px;
     }
 }
 
@@ -89,5 +108,19 @@ h3 {
         max-width: 540px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .divider {
+        height: 75px;
     }
 }

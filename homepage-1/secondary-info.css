@@ -43,7 +43,6 @@
     font-family: PTSerif;
     font-size: 18px;
     line-height: 30px;
-    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -69,13 +68,11 @@
 
     .secondary-info-section .content .title {
         margin-top: 20px;
-        font-size: 29px;
         margin-bottom: 20px;
-        line-height: 40px;
     }
 
     .secondary-info-section .content .text{
-        line-height: 20px;
+        line-height: 24px;
     }
 
     .secondary-info-section .content .btn {
@@ -96,6 +93,8 @@
     .secondary-info-section {
         background: none;
         padding: 0;
+        margin-top: 65px;
+        margin-bottom: 65px;
     }
 
     .secondary-info-section .flags img {
@@ -123,17 +122,11 @@
 
     .secondary-info-section .content .title {
         margin-top: 0;
-        font-size: 42px;
-        line-height: 45px;
     }
 
     .secondary-info-section .content .text {
         font-size: 16px;
-        line-height: 25px;
-    }
-
-    .secondary-info-section .divider {
-        height: 70px;
+        line-height: 24px;
     }
 }
 
@@ -141,6 +134,8 @@
     .secondary-info-section {
         background: none;
         padding: 0;
+        margin-top: 45px;
+        margin-bottom: 45px;
     }
 
     .secondary-info-section .content {
@@ -150,7 +145,6 @@
     .secondary-info-section .content .inner  {
         width: 100%; 
     }
-
 
     .secondary-info-section .flags img {
         display: none;
@@ -164,17 +158,12 @@
 
     .secondary-info-section .content .btn {
         width: 100%;
-    }
-
-    .secondary-info-section .content .title {
-        line-height: 48px;
+        font-size: 16px;
+        padding: 0;
+        line-height: 50px;
     }
 
     .secondary-info-section .content .text {
-        line-height: 25px;
-    }
-    
-    .secondary-info-section .divider {
-        height: 70px;
+        line-height: 24px;
     }
 }
