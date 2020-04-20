@@ -40,11 +40,9 @@
 }
 
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    /* .main-info-section img {
-        width: 438px;
-        height: 400px;
-        margin-right: 80px;
-    } */
+    .main-info-section .laptop {
+        align-self: center;
+    }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
