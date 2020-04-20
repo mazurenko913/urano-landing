@@ -52,6 +52,10 @@
         margin-left: 35px;
     }
 
+    .main-info-section .laptop {
+        align-self: center;
+    }
+
     .main-info-section .content .title {
         margin-top: 20px;
         margin-bottom: 20px;
