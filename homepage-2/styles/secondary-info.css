@@ -1,0 +1,106 @@
+.secondary-info-section .container {
+    display: flex;
+    justify-content: space-around;
+    line-height: 0;
+}
+
+.secondary-info-section .card{
+    margin-bottom: 150px;
+}
+
+.secondary-info-section .card:last-child{
+    margin-bottom: 0;
+}
+
+.secondary-info-section .wrapper {
+    width: 330px;
+}
+
+.secondary-info-section .card {
+    text-align: center;
+}
+
+.secondary-info-section .title {
+    margin: 30px 0 20px 0;
+}
+
+.secondary-info-section .text {
+    margin-bottom: 0;
+    font-family: PTSerif-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
+    .secondary-info-section .iphone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
+    .secondary-info-section .iphone {
+        display: none;
+    }
+
+    .secondary-info-section .text {
+        line-height: 22px;
+    }
+
+    .secondary-info-section .card:first-child {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
+    .secondary-info-section .iphone {
+        display: none;
+    }
+
+    .secondary-info-section .container {
+        flex-wrap: wrap;
+    }
+    
+    .secondary-info-section .card:last-child {
+        margin-bottom: 75px;
+    }
+
+    .secondary-info-section .card {
+        margin-bottom: 75px;
+    }
+
+    .secondary-info-section .card .text {
+        line-height: 20px;
+    }
+
+    .secondary-info-section .title {
+        margin: 15px 0 10px 0;
+    }
+}
+
+@media only screen and (max-width: calc(576px - 1px)) {
+    .secondary-info-section .iphone {
+        display: none;
+    }
+
+    .secondary-info-section .container {
+        flex-wrap: wrap;
+    }
+ 
+    .secondary-info-section .card:last-child {
+        margin-bottom: 75px;
+    }
+
+    .secondary-info-section .card {
+        margin-bottom: 75px;
+    }
+
+    .secondary-info-section .card .text {
+        line-height: 20px;
+    }
+
+    .secondary-info-section .title {
+        margin: 15px 0 10px 0;
+    }
+}

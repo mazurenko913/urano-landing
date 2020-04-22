@@ -3,7 +3,7 @@
     margin-bottom: 100px;
     padding-top: 125px;
     padding-bottom: 125px;
-    background-image: url(./img/world-map.png);
+    background-image: url(../img/world-map.png);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -29,7 +29,7 @@
     flex: 1 1 0;
 }
 
-.secondary-info-section .content div{
+.secondary-info-section .content .inner{
     width: 570px;
 }
 

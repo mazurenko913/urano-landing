@@ -10,6 +10,7 @@
 }
 
 .support-section .card {
+    width: 450px;
     text-align: center;
     margin-bottom: 50px;
 }

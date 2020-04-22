@@ -1,6 +1,5 @@
 .support-section .container{
     display: flex;
-    justify-content: space-around;
     line-height: 0;
 }
 
@@ -8,30 +7,21 @@
     text-align: left;
 }
 
+.support-section .card:first-child {
+    margin-right: 30px;
+}
+
 .support-section .title {
     margin: 30px 0 20px 0;
 }
 
 .support-section .text {
-    width: 690px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: PTSerif;
-    font-size: 19px;
+    font-family: PTSerif-Regular;
+    font-size: 18px;
     line-height: 30px;
     opacity: 0.5;
-}
-
-@media only screen and (max-width: calc(1470px - 1px)) and (min-width: 1200px) {
-    .support-section .card .text {
-        width: 550px;
-    }
-}
-
-@media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    .support-section .card .text {
-        width: 450px;
-    }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
@@ -59,9 +49,7 @@
     }
 
     .support-section .card .text {
-        width: 100%;
         line-height: 20px;
-        font-size: 14px;
     }
 
     .support-section .title {
@@ -79,8 +67,6 @@
     }
 
     .support-section .card .text {
-        width: 100%;
-        font-size: 12px;
         line-height: 18px;
     }
 
