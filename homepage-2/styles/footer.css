@@ -25,8 +25,6 @@
 }
 
 .footer-section .content .social-networks {
-    height: 42px;
-    padding-right: 0;
     margin-bottom: 50px;
 }
 
@@ -34,20 +32,20 @@
     padding-right: 10px;
 }
 
-.footer-section .content .social-networks img:last-child {
-    padding-right: 0;
-}
-
 .footer-section .content .links {
     display: flex;
-    width: 690px;
+    flex: 1;
+}
+
+.footer-section .content .about {
+    flex: 1;
 }
 
 .footer-section .content ul {
     padding: 0;
     margin: 0;
-    margin-right: 100px;
-
+    flex-grow: 1;
+    margin-right: 30px;
 }
 
 .footer-section .content .title {
@@ -91,98 +89,91 @@
     height: 100px;
 }
 
-@media only screen and (max-width: calc(1470px - 1px)) and (min-width: 1200px) {
-    
-}
-
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    
+    .footer-section .content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
 
-    .footer-section .content ul {
-        margin-right: 90px;
+    .footer-section .content .links {
+        min-width: 100%;
+    }
+
+    .footer-section .content .about {
+        margin-bottom: 50px;
     }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-
-    .footer-section .content ul {
-        margin-right: 50px;
+    .footer-section .content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
-    .footer-section .content  li {
-        line-height: 20px;
-        font-size: 14px;
+    .footer-section .content .links {
+        min-width: 100%;
+    }
+
+    .footer-section .content .about {
+        margin-bottom: 50px;
     }
 }
 
 @media only screen and (max-width: calc(768px - 1px)) and (min-width: 576px) {
     .footer-section .content {
         flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
     .footer-section .content .links {
-        justify-content: space-between;
-        width: 100%;
+        min-width: 100%;
     }
 
-    .footer-section .content .social-networks {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+    .footer-section .content .about {
+        margin-bottom: 50px;
     }
 
-    .footer-section .content .social-networks img {
-        padding-right: 40px;
-    }
-
-    .footer-section .content ul {   
-        margin:0;
-    }
-
-    .footer-section .content  li {
-        line-height: 20px;
-        font-size: 14px;
+    .divider {
+        height: 100px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
+    .footer-section .content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .footer-section .content .links {
+        min-width: 100%;
+    }
+
+    .footer-section .content .about {
+        margin-bottom: 50px;
+    }
+
     .footer-section .footer-divider {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
-    .footer-section .content {
-        flex-wrap: wrap;
+    
+    .footer-section .content ul {
+        margin-right: 16px;
     }
 
-    .footer-section .content .links {
-        justify-content: space-between;
-        width: 100%;
+    .footer-section .content li {
+        font-size: 14px;
     }
 
-    .footer-section .content .social-networks {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+    .footer-section .divider {
+        height: 75px;
     }
 
-    .footer-section .content .social-networks img {
-        padding-right: 40px;
+    .footer-section .container .divider {
+        height: 75px;
     }
 
-    .footer-section .content .title{
-        line-height: 20px;
-        font-size: 15px;
-    }
-
-    .footer-section .content ul {   
-        margin-right: 8px;
-    }
-
-    .footer-section .content  li {
-        line-height: 14px;
-        font-size: 10px;
+    .footer-section .text {
+        line-height: 25px;
     }
 }
