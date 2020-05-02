@@ -6,20 +6,38 @@
     position: relative;
 }
 
-.review-section .review {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.review-section .main-overlay {
     position: absolute;
     bottom: 0;
     top: 0;
     right: 0;
     left: 0;
+    opacity: 0.5;
+    background-color: var(--color-secondary-background);
+}
+
+.review-section .secondary-overlay {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.review-section .play {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .review-section .title {
     color: var(--color-primary-text);
-    margin: 0 0 20px;
+    margin: 0;
 }
 
 .review-section .text {
@@ -28,4 +46,78 @@
     font-size: 18px;
     line-height: 30px;
     opacity: 0.5;
+}
+
+
+@media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
+    .review-section {
+        height: 700px;
+    }
+
+   .review-section .play img {
+        width: 75px;
+   }
+
+   .review-section .secondary-overlay {
+       margin-bottom: 75px;
+   }
+}
+
+@media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
+    .review-section {
+        height: 600px;
+    }
+
+   .review-section .play img {
+        width: 60px;
+   }
+
+   .review-section .secondary-overlay {
+        margin-bottom: 50px;
+}
+
+   .review-section .secondary-overlay .text {
+       margin-top: 0;
+       width: 100%;
+   }
+}
+
+@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px) {
+    .review-section {
+        height: 550px;
+    }
+
+   .review-section .play img {
+        width: 60px;
+   }
+
+   .review-section .secondary-overlay {
+        margin-bottom: 20px;
+}
+
+   .review-section .secondary-overlay .text {
+       margin-top: 0;
+       width: 100%;
+       line-height: 25px;
+   }
+}
+
+@media only screen and (max-width: 575px) {
+    .review-section {
+        height: 550px;
+    }
+
+   .review-section .play img {
+        width: 50px;
+   }
+
+   .review-section .secondary-overlay {
+        margin-bottom: 0;
+}
+
+   .review-section .secondary-overlay .text {
+       margin-top: 0;
+       width: 100%;
+       line-height: 22px;
+   }
 }
