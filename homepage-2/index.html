@@ -15,6 +15,8 @@
   <link href="./styles/secondary-info.css" rel="stylesheet">
   <link href="./styles/price.css" rel="stylesheet">
   <link href="./styles/footer.css" rel="stylesheet">
+  
+  <script src="./javascript.js"></script>
 
   <meta name="viewport" content="width=device-width,
          initial-scale=1.0,
@@ -26,10 +28,10 @@
 <body>
   <header class="header-section">
     <div class="container">
-      <div class="menu">
+      <div class="cap">
         <a class="logo" href="#">urano<span>.</span> </a>
 
-        <ul class="list">
+        <ul class="menu">
           <li>
             <a href="#">Features</a>
           </li>
@@ -44,35 +46,54 @@
 
           <button class="btn">Sign up</button>
         </ul>
-
-        <svg version="1.1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-          xml:space="preserve">
-          <g>
+        <button class="hidden-btn">
+          <svg version="1.1" x="0px" y="0px" viewBox="0 0 512 512" style xml:space="preserve">
             <g>
-              <path
-                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+              <g>
+                <path
+                  d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+              </g>
             </g>
-          </g>
-          <g>
             <g>
-              <path
-                d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z" />
+              <g>
+                <path
+                  d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z" />
+              </g>
             </g>
-          </g>
-          <g>
             <g>
-              <path d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20
+              <g>
+                <path d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20
            C512,404.954,503.046,396,492,396z" />
+              </g>
             </g>
-          </g>
-        </svg>
+          </svg>
+        </button>
+      </div>
 
+      <div class="hamburger-menu">
+        <ul class="list">
+          <li>
+            <a href="#">Features</a>
+          </li>
+
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#">Log in</a>
+          </li>
+
+          <li>
+            <a href="#">Sign up</a>
+          </li>
+        </ul>
       </div>
 
       <div class="content">
         <h1 class="title">Urano .sketch Template For Free</h1>
 
-        <div class="inner">
+        <div class="text-wrapper">
           <p class="text">Revolutionizing web design experience with simple to use
             UI kit filled with many features. It is your UI designer
             wherever you need him.
@@ -115,7 +136,7 @@
 
     <div class="container">
       <div class="content">
-        <div class="inner">
+        <div class="wrapper">
           <h2 class="title">Video review block</h2>
           <p class="text">Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula,
             rhoncus eleifend rhoncus sed, malesuada id metus. Aenean lorem nibh,
@@ -126,9 +147,14 @@
         </div>
       </div>
 
-      <div class="review">
-        <img src="./img/play.png" class="play">
-      </div>
+      <div class="review-wrapper">
+        <div class="review">
+          <div class="shadow">
+            <img src="./img/play.png" class="play">
+          </div>
+         
+        </div>
+    </div>
 
     </div>
     <div class="divider"></div>
@@ -191,17 +217,17 @@
       <p class="text">Nunc porta erat ut lectus posuere molestie.</p>
 
       <div class="content">
-        <div class="basic">
+        <div class="card basic">
           <h4 class="title">Basic</h4>
           <img src="./img/bike.png">
           <p class="current-price">$0</p>
           <p class="period">Forever</p>
           <p class="description">Nunc porta erat ut lectus posuere molestie.
             Vestibulum risus ligula, rhoncus eleifend rhoncus sed, malesuada id metus.</p>
-          <button class="btn empty">Start for free</button>
+          <button class="btn outline">Start for free</button>
         </div>
 
-        <div class="pro">
+        <div class="card pro">
           <h4 class="title">Pro</h4>
           <img src="./img/car.png">
           <p class="current-price">$25</p>
@@ -211,7 +237,7 @@
           <button class="btn">Start for free</button>
         </div>
 
-        <div class="unlimited">
+        <div class="card">
           <h4 class="title">Unlimited</h4>
           <img src="./img/rocket.png">
           <p class="current-price">$25</p>
@@ -271,7 +297,7 @@
 
         <div class="about">
           <a class="logo" href="#">urano<span>.</span> </a>
-          <p class="text">Nunc porta erat ut lectus posuere molestie. 
+          <p class="text">Nunc porta erat ut lectus posuere molestie.
             Vestibulum risus ligula, rhoncus eleifend rhoncus sed, malesuada id metus.
           </p>
 
@@ -304,15 +330,13 @@
               <li>Lorem ipsum</li>
             </ul>
 
-            </div>
+          </div>
         </div>
-
-        
       </div>
 
       <hr class="footer-divider">
 
-      <p class="text">Nunc porta erat ut lectus posuere molestie. 
+      <p class="text">Nunc porta erat ut lectus posuere molestie.
         Vestibulum risus ligula, rhoncus eleifend rhoncus sed, malesuada id metus.</p>
       <div class="divider"></div>
     </div>

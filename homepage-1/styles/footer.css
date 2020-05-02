@@ -42,6 +42,7 @@
 .footer-section .footer-divider {
     margin-top: 50px;
     margin-bottom: 50px;
+    opacity: 0.2;
     border-top: none;
     background: 1px solid var(--color-footer-section-divider);
 }

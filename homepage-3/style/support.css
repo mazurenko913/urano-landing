@@ -5,18 +5,25 @@
 
 .support-section .card {
     text-align: left;
-}
-
-.support-section .card:first-child {
     margin-right: 30px;
 }
 
+.support-section .card:last-child{
+    margin-right: 0;
+}
+
 .support-section .title {
-    margin: 30px 0 20px 0;
+    margin: 0 0 20px
+}
+
+.support-section .title-divider {
+    width: 210px;
+  height: 5px;
+  background-color: #5558db;
 }
 
 .support-section .text {
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 0;
     font-family: PTSerif-Regular;
     font-size: 18px;
@@ -29,8 +36,8 @@
        flex-wrap: wrap;
     }
 
-    .support-section .card:last-child {
-        margin-top: 75px;
+    .support-section .divider {
+        height: 125px;
     }
 }
 
@@ -38,23 +45,19 @@
     .support-section .container {
         flex-wrap: wrap;
     }
- 
-    .support-section .card:last-child {
-        margin-top: 50px;
-    }
 
     .support-section .title {
         margin: 15px 0 10px 0;
+    }
+
+    .support-section .divider {
+        height: 100px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
     .support-section .container {
         flex-wrap: wrap;
-    }
- 
-    .support-section .card:last-child {
-        margin-top: 50px;
     }
 
     .support-section .card .text {
@@ -63,5 +66,9 @@
 
     .support-section .title {
         margin: 15px 0 10px 0;
+    }
+
+    .support-section .divider {
+        height: 75px;
     }
 }

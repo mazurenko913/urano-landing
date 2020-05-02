@@ -14,6 +14,7 @@
 .footer-section .footer-divider {
     margin-top: 48px;
     margin-bottom: 50px;
+    opacity: 0.2;
     border-top: none;
     background: 1px solid var(--color-footer-section-divider);
 }
@@ -39,6 +40,10 @@
 
 .footer-section .content .about {
     flex: 1;
+}
+
+.footer-section .about .links ul:last-child {
+    margin-right: 0;
 }
 
 .footer-section .content ul {
@@ -99,6 +104,10 @@
         min-width: 100%;
     }
 
+    .footer-section .content .links ul:last-child {
+        margin-right: 0;
+    }
+
     .footer-section .content .about {
         margin-bottom: 50px;
     }
@@ -114,6 +123,10 @@
         min-width: 100%;
     }
 
+    .footer-section .content .links ul:last-child {
+        margin-right: 0;
+    }
+
     .footer-section .content .about {
         margin-bottom: 50px;
     }
@@ -127,6 +140,10 @@
 
     .footer-section .content .links {
         min-width: 100%;
+    }
+
+    .footer-section .content .links ul:last-child {
+        margin-right: 0;
     }
 
     .footer-section .content .about {
@@ -148,6 +165,10 @@
         min-width: 100%;
     }
 
+    .footer-section .content .links ul:last-child {
+        margin-right: 0;
+    }
+
     .footer-section .content .about {
         margin-bottom: 50px;
     }
@@ -161,8 +182,13 @@
         margin-right: 16px;
     }
 
+    .footer-section .content .title {
+        margin-bottom: 4px;
+    }
+
     .footer-section .content li {
         font-size: 14px;
+        margin-bottom: 0px;
     }
 
     .footer-section .divider {

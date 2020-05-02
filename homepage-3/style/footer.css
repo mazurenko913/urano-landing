@@ -1,0 +1,109 @@
+.footer-section {
+    background-color: var(--color-secondary-background);
+    text-align: center;
+}
+
+.footer-section .get-started {
+    
+}
+
+.footer-section .get-started .title {
+    margin: 0;
+    color: var(--color-primary-text);
+}
+
+.footer-section .get-started .text {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--color-primary-text);
+}
+
+.footer-section .get-started .btn {
+    padding: 19px 169px 19px 173px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.footer-section .footer-divider {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-top: none;
+    opacity: 0.2;
+    background: 1px solid var(--color-footer-section-divider);
+}
+
+.footer-section .content .links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section .content ul {
+    list-style-type: none;
+    padding: 0;
+    color: var(--color-primary-text);
+    opacity: 0.5;
+    font-family: PTSerif;
+    font-size: 18px;
+    line-height: 36px;
+    margin:0 150px 0 0;
+}
+
+.footer-section .content ul:last-child {
+    margin-right: 0;
+}
+
+.footer-section .content .social-networks {
+    line-height: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-section .content .social-networks img {
+    margin-right: 33px;
+    height: 30px;
+}
+
+.footer-section .content .production-date {
+    color: var(--color-primary-text);
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 36px;
+    margin: 0;
+}
+
+@media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
+    .footer-section .get-started .btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-section .get-started .btn {
+        width: 100%;
+        padding: 19px 0;
+    }
+
+    .footer-section .get-started .text {
+        line-height: 30px;
+    }
+
+    .footer-section .footer-divider {
+        margin-top: 50px;
+    }
+
+    .footer-section .content .links {
+        flex-wrap: wrap;
+    }
+
+    .footer-section .content .links ul {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .footer-section .content .links ul:last-child {
+        margin-bottom: 0;
+    }
+}

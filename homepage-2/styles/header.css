@@ -4,45 +4,79 @@
     padding-top: 39px;
 }
 
-.header-section .menu .logo {
+.header-section .cap .logo {
     font-size: 28px;
     font-weight: bold;
 }
 
-.header-section .menu .logo span {
+.header-section .cap .logo span {
     color: var(--color-logo);
 }
 
-.header-section .menu {
+.header-section .cap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-section .menu .list {
+.header-section .hidden-btn {
+    display: none;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.header-section .cap .menu {
     display: flex;
     align-items: center;
     list-style-type: none;
     margin: 0;
 }
 
-.header-section .menu svg {
+.header-section .cap svg {
     width: 30px;
     height: 30px;
     fill: white;
     display: none;
 }
 
-.header-section .menu .list li {
+.header-section .cap .menu li {
     margin-right: 38px;
 }
 
-.header-section .menu .list a {
+.header-section .cap .menu a {
     font-size: 18px;
 }
 
-.header-section .menu button {
+.header-section .cap .btn {
     padding: 13px 40px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.header-section .hamburger-menu {
+    display: none;
+}
+
+.header-section .hamburger-menu .list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.header-section.expanded .hamburger-menu {
+   display: block;
+}
+
+.header-section .hamburger-menu li {
+    margin-bottom: 5px;
+}
+
+.header-section .hamburger-menu li:last-child {
+   text-decoration: underline;
+}
+
+.header-section .hamburger-menu a {
     line-height: 22px;
     font-size: 18px;
 }
@@ -52,7 +86,7 @@
     text-align: center;
 }
 
-.header-section .content .inner {
+.header-section .content .text-wrapper {
     display: flex;
     justify-content: center;
 }
@@ -77,7 +111,7 @@
 }
 
 .header-section .content .description {
-    padding-top: 297px;
+    margin-top: 297px;
     padding-bottom: 41px;
     line-height: 15px;
 }
@@ -110,16 +144,16 @@
     }
 
     .header-section .content .description {
-        padding-top: 150px;
+        margin-top: 150px;
     }
 }
 
 @media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
-    .header-section .menu .list {
+    .header-section .cap .menu {
         display: none;
     }
 
-    .header-section .menu svg {
+    .header-section .cap svg {
         display: block;
     }
 
@@ -131,8 +165,12 @@
         margin-top: 110px;
     }
 
+    .header-section .hidden-btn {
+        display: block;
+    }
+
     .header-section .content .description {
-        padding-top: 110px;
+        margin-top: 110px;
     }
 
     .header-section .content .text {
@@ -141,16 +179,20 @@
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .header-section .menu .list {
+    .header-section .cap .menu {
         display: none;
     }
 
-    .header-section .menu svg {
+    .header-section .cap svg {
         display: block;
     }
 
     .header-section .content{
         margin-top: 100px;
+    }
+
+    .header-section .hidden-btn {
+        display: block;
     }
 
     .header-section .content .btn {
@@ -163,7 +205,7 @@
     }
 
     .header-section .content .description {
-        padding-top: 75px;
+        margin-top: 75px;
     }
 
     .header-section .content .text {
