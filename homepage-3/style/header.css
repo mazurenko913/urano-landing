@@ -20,7 +20,7 @@
 }
 
 .header-section .cap .btn {
-    padding: 13px 40px;
+    padding: 13px 35px 13px 37px;
     line-height: 22px;
     font-size: 18px;
 }
@@ -55,7 +55,7 @@
     display: flex;
 }
 
-.header-section .content .store img:first-child {
+.header-section .content .store a:first-child {
     margin-right: 20px;
 }
 
@@ -65,18 +65,28 @@
     font-size: 18px;
 }
 
+.header-section .content .iphone-xs {
+    flex: 1;
+    text-align: center;
+    margin-left: 150px;
+}
+
 .header-section .divider{
     height: 161px;
 }
 
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px)   {
-    .header-section .content .iphone-xs {
+    .header-section .content .iphone-xs img {
         height: 500px;
+    }
+
+    .header-section .content .iphone-xs {
+        margin-left: 0;
     }
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px)   {
-    .header-section .content .iphone-xs {
+    .header-section .content .iphone-xs img {
         display: none;
     }
 
@@ -88,13 +98,17 @@
         align-items: center;
     }
 
+    .header-section .content .iphone-xs {
+        margin-left: 0;
+    }
+
     .header-section .divider {
-        height: 125px;
+        height: 100px;
     }
 }
 
 @media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px)  {
-    .header-section .content .iphone-xs {
+    .header-section .content .iphone-xs img {
         display: none;
     }
 
@@ -129,13 +143,17 @@
         line-height: 32px;
     }
 
+    .header-section .content .iphone-xs {
+        margin-left: 0;
+    }
+
     .header-section .divider {
-        height: 100px;
+        height: 75px;
     }
 }
 
 @media only screen and (max-width: calc(576px - 1px)) {
-    .header-section .content .iphone-xs {
+    .header-section .content .iphone-xs img {
         display: none;
     }
 
@@ -164,6 +182,7 @@
 
     .header-section .content .store img {
         width: 130px;
+        height: 40px;
     }
 
     .header-section .content .title {
@@ -175,7 +194,11 @@
         line-height: 28px;
     }
 
+    .header-section .content .iphone-xs {
+        margin-left: 0;
+    }
+
     .header-section .divider {
-        height: 75px;
+        height: 0;
     }
 }

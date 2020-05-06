@@ -1,4 +1,4 @@
-.review-section {
+.review-section .content {
     background: url(../img/video-review.png);
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -48,12 +48,19 @@
     opacity: 0.5;
 }
 
+.review-section .hidden-description {
+    display: none;
+    background-color: var(--color-secondary-background);
+    padding: 15px 31px;
+    max-width: none;
+}
+
+.review-section .hidden-description .text {
+    margin-bottom: 0;
+}
+
 
 @media only screen and (max-width: calc(1200px - 1px)) and (min-width: 992px) {
-    .review-section {
-        height: 700px;
-    }
-
    .review-section .play img {
         width: 75px;
    }
@@ -64,10 +71,6 @@
 }
 
 @media only screen and (max-width: calc(992px - 1px)) and (min-width: 768px) {
-    .review-section {
-        height: 600px;
-    }
-
    .review-section .play img {
         width: 60px;
    }
@@ -76,17 +79,13 @@
         margin-bottom: 50px;
 }
 
-   .review-section .secondary-overlay .text {
+   .review-section .text {
        margin-top: 0;
        width: 100%;
    }
 }
 
 @media only screen  and (max-width: calc(768px - 1px)) and (min-width: 576px) {
-    .review-section {
-        height: 550px;
-    }
-
    .review-section .play img {
         width: 60px;
    }
@@ -95,7 +94,7 @@
         margin-bottom: 20px;
 }
 
-   .review-section .secondary-overlay .text {
+   .review-section .text {
        margin-top: 0;
        width: 100%;
        line-height: 25px;
@@ -103,21 +102,21 @@
 }
 
 @media only screen and (max-width: 575px) {
-    .review-section {
-        height: 550px;
-    }
-
    .review-section .play img {
         width: 50px;
    }
 
    .review-section .secondary-overlay {
-        margin-bottom: 0;
-}
+        display: none;
+    }
 
-   .review-section .secondary-overlay .text {
+   .review-section .text {
        margin-top: 0;
        width: 100%;
        line-height: 22px;
+   }
+
+   .review-section .hidden-description {
+    display: block;
    }
 }

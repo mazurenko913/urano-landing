@@ -39,11 +39,14 @@
     list-style-type: none;
     padding: 0;
     color: var(--color-primary-text);
-    opacity: 0.5;
     font-family: PTSerif;
     font-size: 18px;
     line-height: 36px;
     margin:0 150px 0 0;
+}
+
+.footer-section .content li {
+    opacity: 0.5;
 }
 
 .footer-section .content ul:last-child {
@@ -56,13 +59,16 @@
     margin-bottom: 50px;
 }
 
-.footer-section .content .social-networks img {
+.footer-section .content .social-networks a {
     margin-right: 33px;
-    height: 30px;
 }
 
-.footer-section .content .social-networks img:last-child {
+.footer-section .content .social-networks a:last-child {
     margin-right: 0;
+}
+
+.footer-section .content .social-networks img {
+    height: 30px;
 }
 
 .footer-section .content .production-date {
