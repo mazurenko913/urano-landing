@@ -11,3 +11,6 @@ Run index.html in your browser
 
 # Mobile, 375px;
 ![small devices](img/homapage-xs.png)
+
+# Mobile, 375px;
+![small devices](/homapage-xs.png)
