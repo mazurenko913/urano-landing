@@ -7,7 +7,7 @@ Creating of 3 sites using Html, CSS and media queries.
 Run index.html in your browser
 
 # Desktop, 1200px;
-![large devices](img/homapage-xl.png)
+![xlarge devices](/img/homapage-xl.png)
 
 # Mobile, 375px;
-![small devices](img/homapage-xs.png)
+![small devices](./img/homapage-xs.png)
